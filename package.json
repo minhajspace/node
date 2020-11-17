@@ -1,0 +1,17 @@
+{
+  "name": "nodecrashcourse",
+  "version": "1.0.0",
+  "description": "node crash course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Minhaj ahmad khan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "uuid": "^8.3.1"
+  }
+}
