@@ -1,2 +1,5 @@
-exports.area =(a)=>(a*a);
-exports.parameters=(a)=>(a*4)
+area =(a)=>(a*a);
+parameters=(a)=>(a*4)
+
+module.exports.area = area;
+module.exports.parameters=parameters
