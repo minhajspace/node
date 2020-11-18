@@ -1,5 +1,5 @@
-area =(a)=>(a*a);
-parameters=(a)=>(a*4)
+// const area =(a)=>(a*a);
+// const parameters=(a)=>(a*4)
 
-module.exports.area = area;
-module.exports.parameters=parameters
+// module.exports.area = area;
+// module.exports.parameters=parameters
