@@ -1,3 +1,5 @@
-const fs = require('fs');
 
-fs.copyFileSync("FileOne.text","FileTwo.txt")
+
+const fileCopy = require('fs')
+
+fileCopy.copyFileSync("FileOne.text","FileTwo.txt")
