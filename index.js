@@ -1,12 +1,10 @@
-const squre =require('./math')
-
-const calsqure =(a)=>{
-    console.log(`the value of a is ${a} and the area is ${squre.area(a)} and the parameter is ${squre.parameters(a)}` )
-}
-
-calsqure(5)
-
-console.log(squre.myDetails("Minhaj","24","Lucknow","aktu"))
-
-
-
+const http = require('http');
+const hostName = 'localhost';
+const port = 4000;
+const server =http.createServer((req,res) => {
+   console.log(req.headers);
+   res.statusCode =200 ; 
+   res.setHeader('Content-Type','text/html');
+   res.end('<html><title>server</title><body><h1>server connection successful </h1></body></html>')
+});
+server.listen(port,hostName)
