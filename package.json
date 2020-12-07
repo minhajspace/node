@@ -4,7 +4,8 @@
   "description": "node crash course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start":"node "
   },
   "author": "Minhaj ahmad khan",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "nodemon": "^2.0.6"
   },
   "dependencies": {
+    "superheroes": "^3.0.0",
     "uuid": "^8.3.1"
   }
 }
